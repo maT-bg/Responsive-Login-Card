@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Formulário de Login</title>
+  
+</head>
+<body>
+  <div class="container">
+    
+    <section>
+      <h1>Learn to code by<br>watching others</h1>    
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </section>
+  
+    <form action="#">
+      <h2><b>It free 7 days</b> then $20/mo. thereafter</h2>
+      <fieldset>
+        <input type="text" name="Fname" id="Fname" placeholder="First Name" required>
+        <span class="error-msg">First Name cannot be empty</span>
+        <input type="text" name="Lname" id="Lname" placeholder="Last Name" required>
+        <span class="error-msg">Last Name cannot be empty</span>
+        <input type="email" name="email" id="email" placeholder="Email Address" required>
+        <span class="error-msg">Looks like this is not an email</span>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+        <span class="error-msg">Password cannot be empty</span>
+        
+        <button type="submit">Claim your free trial</button>
+        <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms and Services</a></p>
+      </fieldset>
+    </form>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Matheus Borges</a>.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
